@@ -10,7 +10,7 @@
     <div class="cadastro-page">
     <h1> Cadastre-se</h1>
 <div class="cadastro-form">
-    <form>
+    <form id="cadastroForm" action="/cadastro" method="POST">
     <label>Nome</label><br>
     <input type="text" id="nome" name="nome" value="" placeholder="Seu Nome" required style="width: 100%;"/><p>
 
@@ -19,8 +19,13 @@
 
     <label>Foto de Perfil</label><br>
     <input type="file" id="foto" name="foto" accept="image/*" required style="width: 100%;"><p>
+        
+
     </form>
     <button type="submit" class="cadastro-button" > Enviar </button>
+    <p>
+    <!-- Acesso sem cadastro -->
+    <p>Acesse o site sem cadastro:<a href="home.html">Entrar</a></p>
     </div>
     </div>
 
