@@ -319,7 +319,12 @@ button:hover {
 }
 
 .dicas h1 {
-    color: #ff6600;
+    color: #96B478;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.dicas h2 {
+    color: #96B478;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -363,3 +368,11 @@ button:hover {
     width: 100%; /* Garante que a imagem ocupe todo o card */
 }
 
+.image-container {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
